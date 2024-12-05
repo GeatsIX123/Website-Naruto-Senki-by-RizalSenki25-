@@ -1,0 +1,159 @@
+*{
+  font-family: Italic;
+}
+
+  body {
+          font-family: Arial, sans-serif;
+          margin: 2px;
+          padding: 2px;
+          box-sizing: border-box;
+          background-color: lightyellow;
+          
+          
+  }
+.header{
+  display:flex;
+  background-color: orange;
+}
+
+.header-logo{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-logo img{
+  height: 100px;
+  padding: 10px;
+}
+
+.header-title{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Times New Roman;
+}
+
+.header-title a{
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+
+.nav{
+  background-color: black;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.nav-item{
+  display: inline-block;
+  margin-left: 20px;
+  height: 20px;
+}
+
+.nav-item a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a:hover{
+  color :orange;
+}
+
+ konten{
+   width: 80%;
+   margin:auto;
+ }
+ 
+ .konten h1{
+   color :orange;
+   font-size: 35px;
+ }
+ 
+ .konten h2{
+   font-size: 22px;
+   color:orange;
+ }
+ 
+
+ 
+
+ .tabel{
+   width: 100%;
+  border-spacing: 4px; 
+ }
+ 
+ .tabel-header{
+   background-color: orange;
+ }
+ 
+ .tabel-header th{
+   padding: 10px;
+   text-align: center;
+ }
+ 
+.tabel-konten{
+  background-color: azure;
+  
+}
+
+.tabel-konten td{
+  padding: 1px;
+  border: 1px solid orange;
+  border-radius: 10px;
+            padding: 1px;
+            width: 100px;
+}
+
+.tabel-konten:hover{
+  background-color: orange;;
+}
+
+
+.form-group{
+  display: block;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+
+.form-group label{
+  display: block;
+  font-size: 20px;
+  color: #FF2929;
+  width: 60%;
+}
+
+.form-group textarea{
+  display:block;
+  margin-top: 10px;
+  height: 200px;
+  width:60%;
+}
+
+.btn {
+  width:150px;
+  height:50px;
+  font-size:20px;
+  font-weight:bold;
+  color:aliceblue;
+  background-color:orange;
+  border: 0px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+.klik{
+  width:150px;
+  height:50px;
+  font-size:20px;
+  font-weight:bold;
+  color:aliceblue;
+  background-color:orange;
+  border: 0px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+
+
